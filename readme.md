@@ -1,0 +1,30 @@
+Santiago Ramírez Pérez.
+1017240851.
+Ingeniería eléctrica.  
+
+Felipe Sánchez Londoño.
+1026156025.
+Ingeniería eléctrica.
+
+Los datos usados son de la página Kaggle y se pueden encontrar en el siguiente enlace:
+
+https://www.kaggle.com/competitions/forest-cover-type-prediction
+
+Para obtener los datos y hacerlos disponibles en los notebooks cuando se ejecutan en Colab se deben realizar los siguientes pasos:
+
+Creación de API Token: para descargar los archivos desde el cuaderno de Jupyter se debe crear un token desde tu cuenta de Kaggle. Este procedimiento se realiza yendo a la configuración de tu perfil y luego das click en "Create New API Token" y se descargará un archivo kaggle.json donde se encuentra tu nombre de usuario y el token, ambos los necesitarás para descargar los archivos.
+
+Aceptación de las reglas de la competencia: también es obligatorio aceptar las reglas de la competencia. Estas reglas se encuentran en https://www.kaggle.com/competitions/forest-cover-type-prediction/rules. Si este proceso no se realiza, la descarga se prohíbe y no es posible acceder a los archivos desde acá, deberán ser descargados entonces.
+
+Una vez se hayan realizado estos dos pasos, con este bloque de código se pueden descargar los archivos.
+
+!pip install opendatasets
+import opendatasets as od 
+dataset_link="https://www.kaggle.com/competitions/forest-cover-type-prediction/data?select=sampleSubmission.csv"
+od.download(dataset_link)
+
+Luego, se debe acceder al directorio en donde se encuentran los archivos descargados y ahí si se podrán trabajar sobre ellos. También se muestran todos los archivos contenidos en la carpeta descargada.
+
+import os
+os.chdir("forest-cover-type-prediction")
+os.listdir()
