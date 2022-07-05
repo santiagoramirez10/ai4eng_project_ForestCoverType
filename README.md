@@ -1,4 +1,4 @@
-Santiago Ramírez Pérez.
+Santiago Ramírez Pérez."\n"
 1017240851.
 Ingeniería eléctrica.  
 
@@ -23,4 +23,5 @@ Una vez se hayan realizado estos dos pasos, con este bloque de código se pueden
 
 Luego, se debe acceder al directorio en donde se encuentran los archivos descargados y ahí si se podrán trabajar sobre ellos. También se muestran todos los archivos contenidos en la carpeta descargada.
 
-![imagen](https://user-images.githubusercontent.com/77732857/177428499-2d83b5c6-85aa-402f-8c4e-afa6e87d2744.png)
+![imagen](https://user-images.githubusercontent.com/77732857/177428616-02f1f109-f593-4354-aff1-4427eb0c7fbc.png)
+
