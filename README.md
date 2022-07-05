@@ -1,4 +1,4 @@
-Santiago Ramírez Pérez."\n"
+Santiago Ramírez Pérez.
 1017240851.
 Ingeniería eléctrica.  
 
