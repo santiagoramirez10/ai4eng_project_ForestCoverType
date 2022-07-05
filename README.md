@@ -28,3 +28,6 @@ Luego, se debe acceder al directorio en donde se encuentran los archivos descarg
 import os
 os.chdir("forest-cover-type-prediction")
 os.listdir()
+
+![imagen](https://user-images.githubusercontent.com/77732857/177428352-64a6dc90-c41f-4cd6-a593-22e31717c96c.png)
+
