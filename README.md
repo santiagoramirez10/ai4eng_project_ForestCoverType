@@ -1,3 +1,6 @@
+# Project Forest Cover Type
+Proyecto de predicción del tipo de corteza forestal.
+
 Santiago Ramírez Pérez.
 1017240851.
 Ingeniería eléctrica.  
