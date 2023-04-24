@@ -1,6 +1,8 @@
 # Project Forest Cover Type
 Proyecto de predicción del tipo de corteza forestal.
 
+## Miembros del grupo
+
 Santiago Ramírez Pérez.
 1017240851.
 Ingeniería eléctrica.
@@ -13,6 +15,7 @@ Felipe Sánchez Londoño.
 1026156025.
 Ingeniería eléctrica.
 
+## Datos
 Los datos usados son de la página Kaggle y se pueden encontrar en el siguiente enlace:
 
 https://www.kaggle.com/competitions/forest-cover-type-prediction
@@ -31,3 +34,6 @@ Una vez se hayan realizado estos dos pasos, con este bloque de código se pueden
 Luego, se debe acceder al directorio en donde se encuentran los archivos descargados y ahí si se podrán trabajar sobre ellos. También se muestran todos los archivos contenidos en la carpeta descargada.
 
 ![imagen](https://user-images.githubusercontent.com/77732857/177428616-02f1f109-f593-4354-aff1-4427eb0c7fbc.png)
+
+## Videos
+- [Segunda entrega](https://www.youtube.com/watch?v=SmRBSsSAYQ4)
