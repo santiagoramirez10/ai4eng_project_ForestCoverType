@@ -23,12 +23,20 @@ Creación de API Token: para descargar los archivos desde el cuaderno de Jupyter
 Aceptación de las reglas de la competencia: también es obligatorio aceptar las reglas de la competencia. Estas reglas se encuentran en https://www.kaggle.com/competitions/forest-cover-type-prediction/rules. Si este proceso no se realiza, la descarga se prohíbe y no es posible acceder a los archivos desde acá, deberán ser descargados entonces.
 
 Una vez se hayan realizado estos dos pasos, con este bloque de código se pueden descargar los archivos.
-
+```
+!pip install opendatasets
+import opendatasets as od
+dataset_link="https://www.kaggle.com/competitions/forest-cover-type-prediction/data?select=sampleSubmission.csv"
+od.download(dataset_link)
+```
 ![imagen](https://user-images.githubusercontent.com/77732857/177428440-e96f1ac7-e890-47eb-be14-6eaaf8d50a88.png)
 
-
 Luego, se debe acceder al directorio en donde se encuentran los archivos descargados y ahí si se podrán trabajar sobre ellos. También se muestran todos los archivos contenidos en la carpeta descargada.
-
+```
+import os
+os.chdir("forest-cover-type-prediction")
+os.listdir()
+```
 ![imagen](https://user-images.githubusercontent.com/77732857/177428616-02f1f109-f593-4354-aff1-4427eb0c7fbc.png)
 
 ## Videos
