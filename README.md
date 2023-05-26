@@ -11,10 +11,6 @@ Verónica Palacio Muñoz.
 1017247211
 Ingeniería de materiales.
 
-Felipe Sánchez Londoño.
-1026156025.
-Ingeniería eléctrica.
-
 ## Datos
 Los datos usados son de la página Kaggle y se pueden encontrar en el siguiente enlace:
 
