@@ -4,12 +4,8 @@ Proyecto de predicción del tipo de corteza forestal.
 ## Miembros del grupo
 
 Santiago Ramírez Pérez.
-1017240851.
-Ingeniería eléctrica.
 
 Verónica Palacio Muñoz.
-1017247211
-Ingeniería de materiales.
 
 ## Datos
 Los datos usados son de la página Kaggle y se pueden encontrar en el siguiente enlace:
